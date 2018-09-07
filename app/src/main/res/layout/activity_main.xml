@@ -65,14 +65,12 @@
 
 
 
-    <Button
-        android:layout_width="300dp"
+    <Spinner
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Perder Peso"
-        android:textColor="@android:color/white"
-        android:backgroundTint="@color/colorPrimary"
-        />
+        >
+
+    </Spinner>
 
     <TextView
         android:layout_width="wrap_content"
@@ -106,6 +104,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="resultado"
+        android:textStyle="bold"
+        android:textSize="20dp"
         />
 
 
